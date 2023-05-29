@@ -1,0 +1,12 @@
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    border-radius: 40px;
+}
+footer{
+    position: fixed;
+    bottom: 0cm;
+    background-color: rgba(192, 192, 192, 0.658);
+    margin-left: 30%;
+}
