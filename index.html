@@ -12,6 +12,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
         <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap" rel="stylesheet">
     </head>
     <body background="https://thumbs.dreamstime.com/b/seamless-pattern-cute-cats-dogs-lovely-vector-illustration-design-fabrics-textile-wallpaper-background-kids-cartoon-151063083.jpg">
         <center>
@@ -19,8 +22,8 @@
             <h2 class="btn-info">Recognizing Sounds</h2>
             <p>Play sounds of barking, meowing, roaring or mooing. The system should recognize it.</p>
         </div>
-        <div>
-            <button class="btn btn-danger" onclick="start()"> <kbd>Start</kbd></button>
+        <div id="main_div">
+            <button class="btn btn-danger" onclick="start()"> <kbd> Start</kbd></button>
             <h4 id="no_o_times"></h4>
             <h3 id="audioName"></h3>
             <br>
@@ -31,4 +34,3 @@
     </body>
         <script src="main.js" ></script>
 </html>
-<!--https://teachablemachine.withgoogle.com/models/1uM2D7t3F/--->

@@ -9,4 +9,24 @@ footer{
     bottom: 0cm;
     background-color: rgba(192, 192, 192, 0.658);
     margin-left: 30%;
+    text-shadow: 1px;
+}
+body{
+    font-family: 'Monomaniac One', sans-serif;
+}
+#heading_div{
+    color:yellowgreen;
+}
+p{
+    font-weight: 400;
+    word-spacing: 5px;
+    font-size: large;
+}
+#main_div{
+    margin-top:10px
+}
+button{
+    width: 20%;
+    height: 30%;
+    letter-spacing: 10px;
 }
